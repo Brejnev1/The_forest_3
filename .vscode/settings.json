@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "final project the forest 3.sln"
+    "dotnet.defaultSolution": "The_forest_3.sln"
 }
