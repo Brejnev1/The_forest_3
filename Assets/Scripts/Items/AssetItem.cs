@@ -1,5 +1,3 @@
-using System;
-using JetBrains.Annotations;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Item")]
