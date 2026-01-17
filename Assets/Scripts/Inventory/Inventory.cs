@@ -10,7 +10,7 @@ public class Inventory : MonoBehaviour
    [SerializeField] private Transform _draggingParent;
 
 
-    public void OnEnable()
+	public void OnEnable()
 	{
 		Render(Items);
 	}
@@ -25,6 +25,8 @@ public class Inventory : MonoBehaviour
 			var cell = Instantiate(inventoryCellTemplate, container);
 			cell.Init(_draggingParent);
 			cell.Render(item);
+			
+			cell.Injecting += () => Destroy(cell.gameObject);
 		});
 	}
 }

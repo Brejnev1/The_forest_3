@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Axe
   m_EditorClassIdentifier: 
   name: "\u0422\u043E\u043F\u043E\u0440"
-  uiIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  uiIcon: {fileID: 21300042, guid: fd0b7189c26761e4c833b6c9734d6cd4, type: 3}
